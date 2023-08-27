@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "sensor",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "tanggal",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "jam",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
